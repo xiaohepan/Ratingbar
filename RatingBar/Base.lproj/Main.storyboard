@@ -105,7 +105,7 @@
                                         <integer key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rating">
-                                        <real key="value" value="1.3999999999999999"/>
+                                        <real key="value" value="2.5"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="ratingMax">
                                         <integer key="value" value="7"/>
