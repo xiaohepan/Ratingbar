@@ -204,7 +204,7 @@ class RatingBar: UIView {
         switch ratingMode {
         case .FullStar:
             innerRating = ceil(score)
-        case .halfStar:
+        case .HalfStar:
             let i = ceil(score)
             innerRating = i - score > 0.5 ? i - 0.5 : i
         default:
@@ -220,7 +220,7 @@ class RatingBar: UIView {
 }
 
 enum RatingMode:Int {
-    case None = 0,FullStar = 1,halfStar = 2,Normal = 3
+    case None = 0,FullStar = 1,HalfStar = 2,FreeStyle = 3
 }
 
 @objc protocol RatingBarDelegate{
